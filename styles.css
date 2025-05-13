@@ -1,0 +1,39 @@
+/* Estilo base */
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Estilo para o botão do WhatsApp */
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(to right, #111827, #111827);
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Seção Orçamento */
+.orçamento-section {
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #111827, #111827);
+}
+
+.orçamento-section h2 {
+  font-size
